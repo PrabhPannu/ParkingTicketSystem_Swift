@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  ParkingTicketSystem_w2018iOS
+
+  Created by moxDroid on 2018-03-06.
+  Copyright © 2018 Pritesh Patel. All rights reserved.
+*/
+
+
+"MSG_INCORRECT_PASSWORD" = "Password is Incorrect!";
+"STR_OK" = "OK";
+"MSG_DUPLICATION" = "Possible duplication error!";
+"STR_DONE" = "Done";
+"STR_CANCEL" = "Cancel";
+"STR_SAVE" = "Save";
+"STR_LOGOUT" = "Logout";
+"STR_CONTACT" = "Contact";
+"STR_NEED_HELP" = "Need Help";
+"STR_CALL" = "Call";
+"STR_SMS" = "SMS";
+"STR_ROUTE" = "Route";

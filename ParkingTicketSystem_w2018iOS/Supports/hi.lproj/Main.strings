@@ -1,0 +1,203 @@
+
+/* Class = "UITextField"; placeholder = "Birth Date"; ObjectID = "06u-Ig-sGa"; */
+"06u-Ig-sGa.placeholder" = "जन्म दिन";
+
+/* Class = "UIViewController"; title = "Update Profile"; ObjectID = "10s-UF-NcC"; */
+"10s-UF-NcC.title" = "प्रोफ़ाइल अपडेट करें";
+
+/* Class = "UITextField"; placeholder = "Enter Full Name"; ObjectID = "1fU-wa-tdd"; */
+"1fU-wa-tdd.placeholder" = "पूर्ण नाम दर्ज करें";
+
+/* Class = "UILabel"; text = "Report"; ObjectID = "1zE-SD-fYc"; */
+"1zE-SD-fYc.text" = "रिपोर्ट";
+
+/* Class = "UILabel"; text = "Logout"; ObjectID = "2Md-MI-WCb"; */
+"2Md-MI-WCb.text" = "लोग आउट";
+
+/* Class = "UIBarButtonItem"; title = "Sign Up"; ObjectID = "2Q9-Gd-C2G"; */
+"2Q9-Gd-C2G.title" = "साइन अप करें";
+
+/* Class = "UIViewController"; title = "Print Ticket"; ObjectID = "2SX-6f-jZG"; */
+"2SX-6f-jZG.title" = "प्रिंट टिकट";
+
+/* Class = "UIBarButtonItem"; title = "Hybrid"; ObjectID = "2bB-R1-YCC"; */
+"2bB-R1-YCC.title" = "संकर";
+
+/* Class = "UILabel"; text = "Authenticating..."; ObjectID = "2ka-4a-Es9"; */
+"2ka-4a-Es9.text" = "प्रमाणित कर रहा है...";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "390-v0-cuc"; */
+"390-v0-cuc.placeholder" = "नया पासवर्ड";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "3hR-9M-x4X"; */
+"3hR-9M-x4X.placeholder" = "पूरा नाम";
+
+/* Class = "UIViewController"; title = "Instruction"; ObjectID = "5ZO-en-Q6A"; */
+"5ZO-en-Q6A.title" = "अनुदेश";
+
+/* Class = "UIBarButtonItem"; title = "Satellite"; ObjectID = "6jw-VF-7j5"; */
+"6jw-VF-7j5.title" = "उपग्रह";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "6lu-lr-5Dl"; */
+"6lu-lr-5Dl.text" = "ईमेल";
+
+/* Class = "UITextField"; placeholder = "Enter Password"; ObjectID = "AbP-Ms-s22"; */
+"AbP-Ms-s22.placeholder" = "पास वर्ड दर्ज करें";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "Agg-zT-sYk"; */
+"Agg-zT-sYk.title" = "कॉपीराइट (सी) लम्बटन कॉलेज, २०१८";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "BGm-lM-Ovi"; */
+"BGm-lM-Ovi.placeholder" = "उपयोगकर्ता नाम";
+
+/* Class = "UITextField"; placeholder = "Enter Parking Lane"; ObjectID = "BhI-1J-Hfx"; */
+"BhI-1J-Hfx.placeholder" = "पार्किंग लेन दर्ज करें";
+
+/* Class = "UILabel"; text = "User"; ObjectID = "COJ-IE-3fY"; */
+"COJ-IE-3fY.text" = "उपयोगकर्ता";
+
+/* Class = "UILabel"; text = "Remember Me?"; ObjectID = "EcJ-A2-PGu"; */
+"EcJ-A2-PGu.text" = "मुझे याद रखना?";
+
+/* Class = "UITableViewSection"; headerTitle = "Settings"; ObjectID = "FOp-yR-m5A"; */
+"FOp-yR-m5A.headerTitle" = "सेटिंग्स";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "Ijh-6E-LWj"; */
+"Ijh-6E-LWj.normalTitle" = "साइन अप करें";
+
+/* Class = "UITableViewController"; title = "Main"; ObjectID = "Kgz-wW-8n3"; */
+"Kgz-wW-8n3.title" = "मुख्य";
+
+/* Class = "UILabel"; text = "Version Info"; ObjectID = "NBF-gu-48T"; */
+"NBF-gu-48T.text" = "संस्करण की जानकारी";
+
+/* Class = "UIBarButtonItem"; title = "Standard"; ObjectID = "NZz-Bi-BaL"; */
+"NZz-Bi-BaL.title" = "मानक";
+
+/* Class = "UILabel"; text = "Contact"; ObjectID = "QP5-FN-uNV"; */
+"QP5-FN-uNV.text" = "संपर्क करें";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "Rru-Pf-Zrh"; */
+"Rru-Pf-Zrh.placeholder" = "पासवर्ड की पुष्टि कीजिये";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "TE2-re-nJs"; */
+"TE2-re-nJs.text" = "होम";
+
+/* Class = "UITextField"; placeholder = "Old Password"; ObjectID = "TfT-ah-PUF"; */
+"TfT-ah-PUF.placeholder" = "पुराना पासवर्ड";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "U5y-Df-rDW"; */
+"U5y-Df-rDW.title" = "कॉपीराइट (सी) लम्बटन कॉलेज, २०१८";
+
+/* Class = "UILabel"; text = "Add Ticket"; ObjectID = "Uuz-zn-XSm"; */
+"Uuz-zn-XSm.text" = "टिकट जोड़ें";
+
+/* Class = "UIViewController"; title = "Home"; ObjectID = "Vmy-or-eb9"; */
+"Vmy-or-eb9.title" = "होम";
+
+/* Class = "UITextField"; placeholder = "Phone Vehicle Number"; ObjectID = "Wzh-MH-iR7"; */
+"Wzh-MH-iR7.placeholder" = "फोन वाहन नंबर";
+
+/* Class = "UILabel"; text = "VIN"; ObjectID = "XGL-xH-Cyt"; */
+"XGL-xH-Cyt.text" = "वाहन पहचान संख्या";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "Y3F-Ex-b83"; */
+"Y3F-Ex-b83.text" = "कुल";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "YBX-0m-MNP"; */
+"YBX-0m-MNP.title" = "कॉपीराइट (सी) लम्बटन कॉलेज, २०१८";
+
+/* Class = "UIViewController"; title = "Sign Up"; ObjectID = "age-Nx-Ldk"; */
+"age-Nx-Ldk.title" = "साइन अप करें";
+
+/* Class = "UITextField"; placeholder = "Enter Car Color"; ObjectID = "b5b-iO-bXO"; */
+"b5b-iO-bXO.placeholder" = "कार का रंग डालें";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "b5y-Nc-OWE"; */
+"b5y-Nc-OWE.text" = "प्रोफाइल";
+
+/* Class = "UILabel"; text = "$5"; ObjectID = "eX9-h6-lqe"; */
+"eX9-h6-lqe.text" = "$5";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "emp-Ba-uYX"; */
+"emp-Ba-uYX.normalTitle" = "लॉग इन करें";
+
+/* Class = "UITextField"; placeholder = "Enter Email ID"; ObjectID = "f7I-AU-TAm"; */
+"f7I-AU-TAm.placeholder" = "ईमेल आईडी दर्ज करें";
+
+/* Class = "UITextField"; placeholder = "Enter Vehicle Number"; ObjectID = "fHA-Ag-xdn"; */
+"fHA-Ag-xdn.placeholder" = "वाहन संख्या दर्ज करें";
+
+/* Class = "UITextField"; placeholder = "Enter Birthdate"; ObjectID = "fz9-Q8-pca"; */
+"fz9-Q8-pca.placeholder" = "जन्मदिन दर्ज करें";
+
+/* Class = "UINavigationItem"; title = "Main"; ObjectID = "gXK-Mv-ewV"; */
+"gXK-Mv-ewV.title" = "मुख्य";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "gms-G2-b8e"; */
+"gms-G2-b8e.title" = "कॉपीराइट (सी) लम्बटन कॉलेज, २०१८";
+
+/* Class = "UITableViewController"; title = "Report"; ObjectID = "hX7-VI-W7v"; */
+"hX7-VI-W7v.title" = "रिपोर्ट";
+
+/* Class = "UITextField"; placeholder = "Enter Parking Spot Number"; ObjectID = "iPc-kB-dgQ"; */
+"iPc-kB-dgQ.placeholder" = "पार्किंग स्पॉट नंबर दर्ज करें";
+
+/* Class = "UIViewController"; title = "Location"; ObjectID = "jLw-xn-2j8"; */
+"jLw-xn-2j8.title" = "स्थान";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "kdp-BX-omi"; */
+"kdp-BX-omi.title" = "लॉग इन करें";
+
+/* Class = "UITextField"; placeholder = "Vehicle Number"; ObjectID = "kqT-aB-Xav"; */
+"kqT-aB-Xav.placeholder" = "गाडी नंबर";
+
+/* Class = "UISegmentedControl"; lmn-hl-KMb.segmentTitles[0] = "1/2 Hr."; ObjectID = "lmn-hl-KMb"; */
+"lmn-hl-KMb.segmentTitles[0]" = "१/२ घंटा";
+
+/* Class = "UISegmentedControl"; lmn-hl-KMb.segmentTitles[1] = "1 Hr."; ObjectID = "lmn-hl-KMb"; */
+"lmn-hl-KMb.segmentTitles[1]" = "१ घंटा";
+
+/* Class = "UISegmentedControl"; lmn-hl-KMb.segmentTitles[2] = "2 Hr."; ObjectID = "lmn-hl-KMb"; */
+"lmn-hl-KMb.segmentTitles[2]" = "२ घंटे";
+
+/* Class = "UISegmentedControl"; lmn-hl-KMb.segmentTitles[3] = "3 Hr."; ObjectID = "lmn-hl-KMb"; */
+"lmn-hl-KMb.segmentTitles[3]" = "३ घंटे";
+
+/* Class = "UISegmentedControl"; lmn-hl-KMb.segmentTitles[4] = "Day"; ObjectID = "lmn-hl-KMb"; */
+"lmn-hl-KMb.segmentTitles[4]" = "१ दिन";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "n9P-SS-Wot"; */
+"n9P-SS-Wot.title" = "कॉपीराइट (सी) लम्बटन कॉलेज, २०१८";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "nli-av-GBg"; */
+"nli-av-GBg.title" = "कॉपीराइट (सी) लम्बटन कॉलेज, २०१८";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "nrP-LA-UDd"; */
+"nrP-LA-UDd.placeholder" = "पारण शब्द";
+
+/* Class = "UILabel"; text = "Instruction"; ObjectID = "pSD-Id-pBW"; */
+"pSD-Id-pBW.text" = "अनुदेश";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "per-Al-Qau"; */
+"per-Al-Qau.text" = "स्थान";
+
+/* Class = "UIViewController"; title = "Add Ticket"; ObjectID = "q9w-Y9-Igg"; */
+"q9w-Y9-Igg.title" = "टिकट जोड़ें";
+
+/* Class = "UITableViewSection"; headerTitle = "Actions"; ObjectID = "t7f-67-wgw"; */
+"t7f-67-wgw.headerTitle" = "क्रिया";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "tMN-qQ-czg"; */
+"tMN-qQ-czg.text" = "पहर";
+
+/* Class = "UITextField"; placeholder = "Car Make"; ObjectID = "uXp-l9-tPE"; */
+"uXp-l9-tPE.placeholder" = "कार बनाना";
+
+/* Class = "UITextField"; placeholder = "Enter Payment Method"; ObjectID = "w7E-cu-aWg"; */
+"w7E-cu-aWg.placeholder" = "भुगतान विधि दर्ज करें";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yO9-Rl-7Ye"; */
+"yO9-Rl-7Ye.text" = "लेबल";
+
+"nfM-nJ-rDZ.title" = "रूट सूचना";

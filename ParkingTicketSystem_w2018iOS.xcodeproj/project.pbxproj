@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0725E39E2044FED0006ED58F /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0725E39D2044FED0006ED58F /* MainTableViewController.swift */; };
+		0725E3A020450311006ED58F /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0725E39F20450311006ED58F /* InstructionViewController.swift */; };
+		0745859C20450539001128B4 /* AddTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745859B20450539001128B4 /* AddTicketViewController.swift */; };
+		0745859E20450561001128B4 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745859D20450561001128B4 /* LocationViewController.swift */; };
+		074585A0204505B1001128B4 /* ReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745859F204505B1001128B4 /* ReportTableViewController.swift */; };
+		074585A2204505D4001128B4 /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074585A1204505D4001128B4 /* ReportTableViewCell.swift */; };
+		074585A720462772001128B4 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074585A620462772001128B4 /* GradientButton.swift */; };
+		074585A920462781001128B4 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074585A820462781001128B4 /* DateExtension.swift */; };
+		074585AB20465746001128B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074585AA20465746001128B4 /* HomeViewController.swift */; };
+		074585B3204784B4001128B4 /* UpdateUserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074585B2204784B4001128B4 /* UpdateUserDetailsViewController.swift */; };
+		074585B62047871A001128B4 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074585B42047871A001128B4 /* DoubleExtension.swift */; };
+		074585B72047871A001128B4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074585B52047871A001128B4 /* Utils.swift */; };
+		074585B920478770001128B4 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074585B820478770001128B4 /* UITextFieldExtension.swift */; };
+		074585F520479BBA001128B4 /* PrintTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074585F420479BBA001128B4 /* PrintTicketViewController.swift */; };
+		074585FF2047A150001128B4 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 074585F72047A14F001128B4 /* home.png */; };
+		074586002047A150001128B4 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 074585F82047A150001128B4 /* profile.png */; };
+		074586012047A150001128B4 /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 074585F92047A150001128B4 /* contact.png */; };
+		074586022047A150001128B4 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 074585FA2047A150001128B4 /* location.png */; };
+		074586032047A150001128B4 /* ticket.png in Resources */ = {isa = PBXBuildFile; fileRef = 074585FB2047A150001128B4 /* ticket.png */; };
+		074586042047A150001128B4 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 074585FC2047A150001128B4 /* logout.png */; };
+		074586052047A150001128B4 /* report.png in Resources */ = {isa = PBXBuildFile; fileRef = 074585FD2047A150001128B4 /* report.png */; };
+		074586062047A150001128B4 /* information.png in Resources */ = {isa = PBXBuildFile; fileRef = 074585FE2047A150001128B4 /* information.png */; };
+		074586082048D76C001128B4 /* ParkingTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074586072048D76C001128B4 /* ParkingTicket.swift */; };
+		0745864A204E1745001128B4 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 07458649204E1745001128B4 /* save.png */; };
+		07458650204E3B5C001128B4 /* main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0745864F204E3B5B001128B4 /* main.jpg */; };
+		07458654204F4F58001128B4 /* gmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 07458653204F4F58001128B4 /* gmail.png */; };
+		0745865B204F5CE7001128B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0745865D204F5CE7001128B4 /* Localizable.strings */; };
+		0745865F204F6D14001128B4 /* instruction.html in Resources */ = {isa = PBXBuildFile; fileRef = 07458661204F6D14001128B4 /* instruction.html */; };
+		075C25B82230B71700C96506 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C25B72230B71700C96506 /* car.png */; };
+		07C7A9C620520964000E474B /* LocationStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7A9C520520964000E474B /* LocationStepsViewController.swift */; };
+		07C7A9CB20535E57000E474B /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07C7A9CA20535E56000E474B /* Starjedi.ttf */; };
+		07C7A9CC20535E60000E474B /* BEYNO.otf in Resources */ = {isa = PBXBuildFile; fileRef = 07C7A9C9205233C0000E474B /* BEYNO.otf */; };
+		07C7A9CD20535E64000E474B /* BEYNO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07C7A9C8205233C0000E474B /* BEYNO.ttf */; };
+		07D3C775204F8AB200E00441 /* ford.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C757204F8AB200E00441 /* ford.png */; };
+		07D3C776204F8AB200E00441 /* lexus.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C758204F8AB200E00441 /* lexus.png */; };
+		07D3C777204F8AB200E00441 /* hyundai.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C759204F8AB200E00441 /* hyundai.png */; };
+		07D3C778204F8AB200E00441 /* peugeot.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C75A204F8AB200E00441 /* peugeot.png */; };
+		07D3C779204F8AB200E00441 /* bentley.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C75B204F8AB200E00441 /* bentley.png */; };
+		07D3C77A204F8AB200E00441 /* chevrolet.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C75C204F8AB200E00441 /* chevrolet.png */; };
+		07D3C77B204F8AB200E00441 /* cadillac.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C75D204F8AB200E00441 /* cadillac.png */; };
+		07D3C77C204F8AB200E00441 /* mercedes.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C75E204F8AB200E00441 /* mercedes.png */; };
+		07D3C77D204F8AB200E00441 /* buick.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C75F204F8AB200E00441 /* buick.png */; };
+		07D3C77E204F8AB200E00441 /* acura.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C760204F8AB200E00441 /* acura.png */; };
+		07D3C77F204F8AB200E00441 /* tesla.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C761204F8AB200E00441 /* tesla.png */; };
+		07D3C780204F8AB200E00441 /* dodge.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C762204F8AB200E00441 /* dodge.png */; };
+		07D3C781204F8AB200E00441 /* toyota.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C763204F8AB200E00441 /* toyota.png */; };
+		07D3C782204F8AB200E00441 /* audi.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C764204F8AB200E00441 /* audi.png */; };
+		07D3C783204F8AB200E00441 /* ferrari.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C765204F8AB200E00441 /* ferrari.png */; };
+		07D3C784204F8AB200E00441 /* alfaromeo.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C766204F8AB200E00441 /* alfaromeo.png */; };
+		07D3C785204F8AB200E00441 /* honda.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C767204F8AB200E00441 /* honda.png */; };
+		07D3C786204F8AB200E00441 /* chrysler.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C768204F8AB200E00441 /* chrysler.png */; };
+		07D3C787204F8AB200E00441 /* maserati.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C769204F8AB200E00441 /* maserati.png */; };
+		07D3C788204F8AB200E00441 /* bugatti.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C76A204F8AB200E00441 /* bugatti.png */; };
+		07D3C789204F8AB200E00441 /* citroen.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C76B204F8AB200E00441 /* citroen.png */; };
+		07D3C78A204F8AB200E00441 /* bmw.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C76C204F8AB200E00441 /* bmw.png */; };
+		07D3C78B204F8AB200E00441 /* kia.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C76D204F8AB200E00441 /* kia.png */; };
+		07D3C78C204F8AB200E00441 /* porsche.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C76E204F8AB200E00441 /* porsche.png */; };
+		07D3C78D204F8AB200E00441 /* lamborghini.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C76F204F8AB200E00441 /* lamborghini.png */; };
+		07D3C78E204F8AB200E00441 /* rollsroyce.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C770204F8AB200E00441 /* rollsroyce.png */; };
+		07D3C78F204F8AB200E00441 /* nissan.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C771204F8AB200E00441 /* nissan.png */; };
+		07D3C790204F8AB200E00441 /* jaguar.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C772204F8AB200E00441 /* jaguar.png */; };
+		07D3C791204F8AB200E00441 /* Infiniti.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C773204F8AB200E00441 /* Infiniti.png */; };
+		07D3C792204F8AB200E00441 /* mazda.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C774204F8AB200E00441 /* mazda.png */; };
+		99688AC822406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99688AC722406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests.swift */; };
+		99688AD622406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99688AD522406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests.swift */; };
+		99688AE022406CDE003F4B46 /* StudentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99688ADF22406CDE003F4B46 /* StudentTest.swift */; };
+		99688AE322406D90003F4B46 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99688ADD22406CD2003F4B46 /* Student.swift */; };
+		9B57ED5D1F9563DC00975309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B57ED5C1F9563DC00975309 /* AppDelegate.swift */; };
+		9B57ED5F1F9563DD00975309 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B57ED5E1F9563DD00975309 /* LoginViewController.swift */; };
+		9B57ED621F9563DD00975309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B57ED601F9563DD00975309 /* Main.storyboard */; };
+		9B57ED641F9563DD00975309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B57ED631F9563DD00975309 /* Assets.xcassets */; };
+		9B57ED671F9563DD00975309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B57ED651F9563DD00975309 /* LaunchScreen.storyboard */; };
+		9B57ED6F1F95642000975309 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B57ED6E1F95642000975309 /* Customer.swift */; };
+		9B57ED711F95673600975309 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B57ED701F95673600975309 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99688ACA22406BAB003F4B46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B57ED511F9563DC00975309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B57ED581F9563DC00975309;
+			remoteInfo = ParkingTicketSystem_w2018iOS;
+		};
+		99688AD822406C9D003F4B46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B57ED511F9563DC00975309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B57ED581F9563DC00975309;
+			remoteInfo = ParkingTicketSystem_w2018iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0725E39D2044FED0006ED58F /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		0725E39F20450311006ED58F /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
+		0745859B20450539001128B4 /* AddTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTicketViewController.swift; sourceTree = "<group>"; };
+		0745859D20450561001128B4 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		0745859F204505B1001128B4 /* ReportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableViewController.swift; sourceTree = "<group>"; };
+		074585A1204505D4001128B4 /* ReportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
+		074585A620462772001128B4 /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		074585A820462781001128B4 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		074585AA20465746001128B4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		074585B2204784B4001128B4 /* UpdateUserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUserDetailsViewController.swift; sourceTree = "<group>"; };
+		074585B42047871A001128B4 /* DoubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		074585B52047871A001128B4 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		074585B820478770001128B4 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		074585F420479BBA001128B4 /* PrintTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTicketViewController.swift; sourceTree = "<group>"; };
+		074585F72047A14F001128B4 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		074585F82047A150001128B4 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		074585F92047A150001128B4 /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		074585FA2047A150001128B4 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		074585FB2047A150001128B4 /* ticket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticket.png; sourceTree = "<group>"; };
+		074585FC2047A150001128B4 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		074585FD2047A150001128B4 /* report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = report.png; sourceTree = "<group>"; };
+		074585FE2047A150001128B4 /* information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = information.png; sourceTree = "<group>"; };
+		074586072048D76C001128B4 /* ParkingTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingTicket.swift; sourceTree = "<group>"; };
+		07458649204E1745001128B4 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		0745864F204E3B5B001128B4 /* main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main.jpg; sourceTree = "<group>"; };
+		07458653204F4F58001128B4 /* gmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gmail.png; sourceTree = "<group>"; };
+		07458657204F5AF7001128B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		07458658204F5AF7001128B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0745865C204F5CE7001128B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0745865E204F5CEC001128B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		07458660204F6D14001128B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/instruction.html; sourceTree = "<group>"; };
+		07458662204F6D1F001128B4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "pt-BR"; path = "pt-BR.lproj/instruction.html"; sourceTree = "<group>"; };
+		075C25B72230B71700C96506 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		07C7A9C02050C714000E474B /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		07C7A9C12050C715000E474B /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		07C7A9C22050C715000E474B /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		07C7A9C32050C715000E474B /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = hi; path = hi.lproj/instruction.html; sourceTree = "<group>"; };
+		07C7A9C520520964000E474B /* LocationStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStepsViewController.swift; sourceTree = "<group>"; };
+		07C7A9C8205233C0000E474B /* BEYNO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEYNO.ttf; sourceTree = "<group>"; };
+		07C7A9C9205233C0000E474B /* BEYNO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEYNO.otf; sourceTree = "<group>"; };
+		07C7A9CA20535E56000E474B /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		07D3C757204F8AB200E00441 /* ford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ford.png; sourceTree = "<group>"; };
+		07D3C758204F8AB200E00441 /* lexus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lexus.png; sourceTree = "<group>"; };
+		07D3C759204F8AB200E00441 /* hyundai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyundai.png; sourceTree = "<group>"; };
+		07D3C75A204F8AB200E00441 /* peugeot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peugeot.png; sourceTree = "<group>"; };
+		07D3C75B204F8AB200E00441 /* bentley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bentley.png; sourceTree = "<group>"; };
+		07D3C75C204F8AB200E00441 /* chevrolet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chevrolet.png; sourceTree = "<group>"; };
+		07D3C75D204F8AB200E00441 /* cadillac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cadillac.png; sourceTree = "<group>"; };
+		07D3C75E204F8AB200E00441 /* mercedes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mercedes.png; sourceTree = "<group>"; };
+		07D3C75F204F8AB200E00441 /* buick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buick.png; sourceTree = "<group>"; };
+		07D3C760204F8AB200E00441 /* acura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acura.png; sourceTree = "<group>"; };
+		07D3C761204F8AB200E00441 /* tesla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tesla.png; sourceTree = "<group>"; };
+		07D3C762204F8AB200E00441 /* dodge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dodge.png; sourceTree = "<group>"; };
+		07D3C763204F8AB200E00441 /* toyota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toyota.png; sourceTree = "<group>"; };
+		07D3C764204F8AB200E00441 /* audi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audi.png; sourceTree = "<group>"; };
+		07D3C765204F8AB200E00441 /* ferrari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferrari.png; sourceTree = "<group>"; };
+		07D3C766204F8AB200E00441 /* alfaromeo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alfaromeo.png; sourceTree = "<group>"; };
+		07D3C767204F8AB200E00441 /* honda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honda.png; sourceTree = "<group>"; };
+		07D3C768204F8AB200E00441 /* chrysler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrysler.png; sourceTree = "<group>"; };
+		07D3C769204F8AB200E00441 /* maserati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maserati.png; sourceTree = "<group>"; };
+		07D3C76A204F8AB200E00441 /* bugatti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bugatti.png; sourceTree = "<group>"; };
+		07D3C76B204F8AB200E00441 /* citroen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citroen.png; sourceTree = "<group>"; };
+		07D3C76C204F8AB200E00441 /* bmw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmw.png; sourceTree = "<group>"; };
+		07D3C76D204F8AB200E00441 /* kia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kia.png; sourceTree = "<group>"; };
+		07D3C76E204F8AB200E00441 /* porsche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = porsche.png; sourceTree = "<group>"; };
+		07D3C76F204F8AB200E00441 /* lamborghini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamborghini.png; sourceTree = "<group>"; };
+		07D3C770204F8AB200E00441 /* rollsroyce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rollsroyce.png; sourceTree = "<group>"; };
+		07D3C771204F8AB200E00441 /* nissan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nissan.png; sourceTree = "<group>"; };
+		07D3C772204F8AB200E00441 /* jaguar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jaguar.png; sourceTree = "<group>"; };
+		07D3C773204F8AB200E00441 /* Infiniti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Infiniti.png; sourceTree = "<group>"; };
+		07D3C774204F8AB200E00441 /* mazda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mazda.png; sourceTree = "<group>"; };
+		99688AC522406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingTicketSystem_w2018iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99688AC722406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingTicketSystem_w2018iOSUITests.swift; sourceTree = "<group>"; };
+		99688AC922406BAB003F4B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99688AD322406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingTicketSystem_w2018iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99688AD522406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingTicketSystem_w2018iOSTests.swift; sourceTree = "<group>"; };
+		99688AD722406C9D003F4B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99688ADD22406CD2003F4B46 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		99688ADF22406CDE003F4B46 /* StudentTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTest.swift; sourceTree = "<group>"; };
+		9B57ED591F9563DC00975309 /* ParkingTicketSystem_w2018iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingTicketSystem_w2018iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B57ED5C1F9563DC00975309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B57ED5E1F9563DD00975309 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9B57ED611F9563DD00975309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B57ED631F9563DD00975309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B57ED661F9563DD00975309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B57ED681F9563DD00975309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B57ED6E1F95642000975309 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9B57ED701F95673600975309 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99688AC222406BAB003F4B46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99688AD022406C9D003F4B46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B57ED561F9563DC00975309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0725E3A1204503C0006ED58F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07C7A9C72052339B000E474B /* Fonts */,
+				074585B52047871A001128B4 /* Utils.swift */,
+				074585A620462772001128B4 /* GradientButton.swift */,
+				0725E3A3204503D0006ED58F /* Files */,
+				0725E3A2204503CA006ED58F /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0725E3A2204503CA006ED58F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				07D3C756204F8AB200E00441 /* Cars */,
+				074585F62047A140001128B4 /* Menu */,
+				07458653204F4F58001128B4 /* gmail.png */,
+				0745864F204E3B5B001128B4 /* main.jpg */,
+				07458649204E1745001128B4 /* save.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0725E3A3204503D0006ED58F /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				07458661204F6D14001128B4 /* instruction.html */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		074585A3204505E8001128B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B57ED6E1F95642000975309 /* Customer.swift */,
+				074586072048D76C001128B4 /* ParkingTicket.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		074585BA204787AD001128B4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				074585B820478770001128B4 /* UITextFieldExtension.swift */,
+				074585B42047871A001128B4 /* DoubleExtension.swift */,
+				074585A820462781001128B4 /* DateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		074585F62047A140001128B4 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				074585F92047A150001128B4 /* contact.png */,
+				074585F72047A14F001128B4 /* home.png */,
+				074585FE2047A150001128B4 /* information.png */,
+				074585FA2047A150001128B4 /* location.png */,
+				074585FC2047A150001128B4 /* logout.png */,
+				074585F82047A150001128B4 /* profile.png */,
+				074585FD2047A150001128B4 /* report.png */,
+				074585FB2047A150001128B4 /* ticket.png */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		07458627204DFF53001128B4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9B57ED5E1F9563DD00975309 /* LoginViewController.swift */,
+				9B57ED701F95673600975309 /* SignUpViewController.swift */,
+				074585B2204784B4001128B4 /* UpdateUserDetailsViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		07458628204DFF77001128B4 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				075C25B72230B71700C96506 /* car.png */,
+				9B57ED631F9563DD00975309 /* Assets.xcassets */,
+				9B57ED5C1F9563DC00975309 /* AppDelegate.swift */,
+				9B57ED601F9563DD00975309 /* Main.storyboard */,
+				9B57ED651F9563DD00975309 /* LaunchScreen.storyboard */,
+				0745865D204F5CE7001128B4 /* Localizable.strings */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		07458651204E3C9B001128B4 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				0745859F204505B1001128B4 /* ReportTableViewController.swift */,
+				074585A1204505D4001128B4 /* ReportTableViewCell.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		07458652204E3CBB001128B4 /* Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				0745859B20450539001128B4 /* AddTicketViewController.swift */,
+				074585F420479BBA001128B4 /* PrintTicketViewController.swift */,
+			);
+			path = Ticket;
+			sourceTree = "<group>";
+		};
+		07C7A9C42052093F000E474B /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				0745859D20450561001128B4 /* LocationViewController.swift */,
+				07C7A9C520520964000E474B /* LocationStepsViewController.swift */,
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		07C7A9C72052339B000E474B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				07C7A9CA20535E56000E474B /* Starjedi.ttf */,
+				07C7A9C9205233C0000E474B /* BEYNO.otf */,
+				07C7A9C8205233C0000E474B /* BEYNO.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		07D3C756204F8AB200E00441 /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				07D3C757204F8AB200E00441 /* ford.png */,
+				07D3C758204F8AB200E00441 /* lexus.png */,
+				07D3C759204F8AB200E00441 /* hyundai.png */,
+				07D3C75A204F8AB200E00441 /* peugeot.png */,
+				07D3C75B204F8AB200E00441 /* bentley.png */,
+				07D3C75C204F8AB200E00441 /* chevrolet.png */,
+				07D3C75D204F8AB200E00441 /* cadillac.png */,
+				07D3C75E204F8AB200E00441 /* mercedes.png */,
+				07D3C75F204F8AB200E00441 /* buick.png */,
+				07D3C760204F8AB200E00441 /* acura.png */,
+				07D3C761204F8AB200E00441 /* tesla.png */,
+				07D3C762204F8AB200E00441 /* dodge.png */,
+				07D3C763204F8AB200E00441 /* toyota.png */,
+				07D3C764204F8AB200E00441 /* audi.png */,
+				07D3C765204F8AB200E00441 /* ferrari.png */,
+				07D3C766204F8AB200E00441 /* alfaromeo.png */,
+				07D3C767204F8AB200E00441 /* honda.png */,
+				07D3C768204F8AB200E00441 /* chrysler.png */,
+				07D3C769204F8AB200E00441 /* maserati.png */,
+				07D3C76A204F8AB200E00441 /* bugatti.png */,
+				07D3C76B204F8AB200E00441 /* citroen.png */,
+				07D3C76C204F8AB200E00441 /* bmw.png */,
+				07D3C76D204F8AB200E00441 /* kia.png */,
+				07D3C76E204F8AB200E00441 /* porsche.png */,
+				07D3C76F204F8AB200E00441 /* lamborghini.png */,
+				07D3C770204F8AB200E00441 /* rollsroyce.png */,
+				07D3C771204F8AB200E00441 /* nissan.png */,
+				07D3C772204F8AB200E00441 /* jaguar.png */,
+				07D3C773204F8AB200E00441 /* Infiniti.png */,
+				07D3C774204F8AB200E00441 /* mazda.png */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
+		99688AC622406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99688AC722406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests.swift */,
+				99688AC922406BAB003F4B46 /* Info.plist */,
+			);
+			path = ParkingTicketSystem_w2018iOSUITests;
+			sourceTree = "<group>";
+		};
+		99688AD422406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				99688ADD22406CD2003F4B46 /* Student.swift */,
+				99688AD522406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests.swift */,
+				99688AD722406C9D003F4B46 /* Info.plist */,
+				99688ADF22406CDE003F4B46 /* StudentTest.swift */,
+			);
+			path = ParkingTicketSystem_w2018iOSTests;
+			sourceTree = "<group>";
+		};
+		9B57ED501F9563DC00975309 = {
+			isa = PBXGroup;
+			children = (
+				9B57ED5B1F9563DC00975309 /* ParkingTicketSystem_w2018iOS */,
+				99688AC622406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests */,
+				99688AD422406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests */,
+				9B57ED5A1F9563DC00975309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B57ED5A1F9563DC00975309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B57ED591F9563DC00975309 /* ParkingTicketSystem_w2018iOS.app */,
+				99688AC522406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests.xctest */,
+				99688AD322406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B57ED5B1F9563DC00975309 /* ParkingTicketSystem_w2018iOS */ = {
+			isa = PBXGroup;
+			children = (
+				07C7A9C42052093F000E474B /* Locations */,
+				07458652204E3CBB001128B4 /* Ticket */,
+				07458651204E3C9B001128B4 /* Reports */,
+				9B57ED681F9563DD00975309 /* Info.plist */,
+				07458628204DFF77001128B4 /* Supports */,
+				07458627204DFF53001128B4 /* Login */,
+				074585BA204787AD001128B4 /* Extensions */,
+				074585A3204505E8001128B4 /* Models */,
+				0725E3A1204503C0006ED58F /* Resources */,
+				0725E39D2044FED0006ED58F /* MainTableViewController.swift */,
+				0725E39F20450311006ED58F /* InstructionViewController.swift */,
+				074585AA20465746001128B4 /* HomeViewController.swift */,
+			);
+			path = ParkingTicketSystem_w2018iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99688AC422406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99688ACE22406BAB003F4B46 /* Build configuration list for PBXNativeTarget "ParkingTicketSystem_w2018iOSUITests" */;
+			buildPhases = (
+				99688AC122406BAB003F4B46 /* Sources */,
+				99688AC222406BAB003F4B46 /* Frameworks */,
+				99688AC322406BAB003F4B46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99688ACB22406BAB003F4B46 /* PBXTargetDependency */,
+			);
+			name = ParkingTicketSystem_w2018iOSUITests;
+			productName = ParkingTicketSystem_w2018iOSUITests;
+			productReference = 99688AC522406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		99688AD222406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99688ADA22406C9D003F4B46 /* Build configuration list for PBXNativeTarget "ParkingTicketSystem_w2018iOSTests" */;
+			buildPhases = (
+				99688ACF22406C9D003F4B46 /* Sources */,
+				99688AD022406C9D003F4B46 /* Frameworks */,
+				99688AD122406C9D003F4B46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99688AD922406C9D003F4B46 /* PBXTargetDependency */,
+			);
+			name = ParkingTicketSystem_w2018iOSTests;
+			productName = ParkingTicketSystem_w2018iOSTests;
+			productReference = 99688AD322406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B57ED581F9563DC00975309 /* ParkingTicketSystem_w2018iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B57ED6B1F9563DD00975309 /* Build configuration list for PBXNativeTarget "ParkingTicketSystem_w2018iOS" */;
+			buildPhases = (
+				9B57ED551F9563DC00975309 /* Sources */,
+				9B57ED561F9563DC00975309 /* Frameworks */,
+				9B57ED571F9563DC00975309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingTicketSystem_w2018iOS;
+			productName = Demo;
+			productReference = 9B57ED591F9563DC00975309 /* ParkingTicketSystem_w2018iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B57ED511F9563DC00975309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Pritesh Patel";
+				TargetAttributes = {
+					99688AC422406BAB003F4B46 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B57ED581F9563DC00975309;
+					};
+					99688AD222406C9D003F4B46 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B57ED581F9563DC00975309;
+					};
+					9B57ED581F9563DC00975309 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B57ED541F9563DC00975309 /* Build configuration list for PBXProject "ParkingTicketSystem_w2018iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+				hi,
+			);
+			mainGroup = 9B57ED501F9563DC00975309;
+			productRefGroup = 9B57ED5A1F9563DC00975309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B57ED581F9563DC00975309 /* ParkingTicketSystem_w2018iOS */,
+				99688AC422406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests */,
+				99688AD222406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99688AC322406BAB003F4B46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99688AD122406C9D003F4B46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B57ED571F9563DC00975309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075C25B82230B71700C96506 /* car.png in Resources */,
+				074586012047A150001128B4 /* contact.png in Resources */,
+				9B57ED671F9563DD00975309 /* LaunchScreen.storyboard in Resources */,
+				07D3C790204F8AB200E00441 /* jaguar.png in Resources */,
+				07D3C775204F8AB200E00441 /* ford.png in Resources */,
+				074585FF2047A150001128B4 /* home.png in Resources */,
+				07D3C777204F8AB200E00441 /* hyundai.png in Resources */,
+				07D3C787204F8AB200E00441 /* maserati.png in Resources */,
+				07D3C779204F8AB200E00441 /* bentley.png in Resources */,
+				07D3C776204F8AB200E00441 /* lexus.png in Resources */,
+				07D3C782204F8AB200E00441 /* audi.png in Resources */,
+				07D3C78A204F8AB200E00441 /* bmw.png in Resources */,
+				07D3C785204F8AB200E00441 /* honda.png in Resources */,
+				0745865B204F5CE7001128B4 /* Localizable.strings in Resources */,
+				07D3C784204F8AB200E00441 /* alfaromeo.png in Resources */,
+				07D3C783204F8AB200E00441 /* ferrari.png in Resources */,
+				07D3C77C204F8AB200E00441 /* mercedes.png in Resources */,
+				074586052047A150001128B4 /* report.png in Resources */,
+				074586032047A150001128B4 /* ticket.png in Resources */,
+				07D3C78C204F8AB200E00441 /* porsche.png in Resources */,
+				07D3C786204F8AB200E00441 /* chrysler.png in Resources */,
+				07D3C77A204F8AB200E00441 /* chevrolet.png in Resources */,
+				07D3C792204F8AB200E00441 /* mazda.png in Resources */,
+				07C7A9CC20535E60000E474B /* BEYNO.otf in Resources */,
+				07D3C788204F8AB200E00441 /* bugatti.png in Resources */,
+				07D3C78D204F8AB200E00441 /* lamborghini.png in Resources */,
+				074586042047A150001128B4 /* logout.png in Resources */,
+				07D3C780204F8AB200E00441 /* dodge.png in Resources */,
+				07D3C778204F8AB200E00441 /* peugeot.png in Resources */,
+				074586002047A150001128B4 /* profile.png in Resources */,
+				07C7A9CD20535E64000E474B /* BEYNO.ttf in Resources */,
+				074586062047A150001128B4 /* information.png in Resources */,
+				07458650204E3B5C001128B4 /* main.jpg in Resources */,
+				07D3C781204F8AB200E00441 /* toyota.png in Resources */,
+				0745864A204E1745001128B4 /* save.png in Resources */,
+				07D3C78E204F8AB200E00441 /* rollsroyce.png in Resources */,
+				0745865F204F6D14001128B4 /* instruction.html in Resources */,
+				07D3C77E204F8AB200E00441 /* acura.png in Resources */,
+				07D3C78B204F8AB200E00441 /* kia.png in Resources */,
+				07D3C77F204F8AB200E00441 /* tesla.png in Resources */,
+				07D3C77D204F8AB200E00441 /* buick.png in Resources */,
+				07D3C789204F8AB200E00441 /* citroen.png in Resources */,
+				9B57ED641F9563DD00975309 /* Assets.xcassets in Resources */,
+				07D3C77B204F8AB200E00441 /* cadillac.png in Resources */,
+				07D3C791204F8AB200E00441 /* Infiniti.png in Resources */,
+				07458654204F4F58001128B4 /* gmail.png in Resources */,
+				07D3C78F204F8AB200E00441 /* nissan.png in Resources */,
+				074586022047A150001128B4 /* location.png in Resources */,
+				07C7A9CB20535E57000E474B /* Starjedi.ttf in Resources */,
+				9B57ED621F9563DD00975309 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99688AC122406BAB003F4B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99688AC822406BAB003F4B46 /* ParkingTicketSystem_w2018iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99688ACF22406C9D003F4B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99688AD622406C9D003F4B46 /* ParkingTicketSystem_w2018iOSTests.swift in Sources */,
+				99688AE322406D90003F4B46 /* Student.swift in Sources */,
+				99688AE022406CDE003F4B46 /* StudentTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B57ED551F9563DC00975309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074586082048D76C001128B4 /* ParkingTicket.swift in Sources */,
+				9B57ED711F95673600975309 /* SignUpViewController.swift in Sources */,
+				074585A920462781001128B4 /* DateExtension.swift in Sources */,
+				9B57ED5F1F9563DD00975309 /* LoginViewController.swift in Sources */,
+				074585B62047871A001128B4 /* DoubleExtension.swift in Sources */,
+				9B57ED6F1F95642000975309 /* Customer.swift in Sources */,
+				074585B920478770001128B4 /* UITextFieldExtension.swift in Sources */,
+				074585A2204505D4001128B4 /* ReportTableViewCell.swift in Sources */,
+				074585A720462772001128B4 /* GradientButton.swift in Sources */,
+				074585B72047871A001128B4 /* Utils.swift in Sources */,
+				0725E3A020450311006ED58F /* InstructionViewController.swift in Sources */,
+				074585A0204505B1001128B4 /* ReportTableViewController.swift in Sources */,
+				0725E39E2044FED0006ED58F /* MainTableViewController.swift in Sources */,
+				074585F520479BBA001128B4 /* PrintTicketViewController.swift in Sources */,
+				9B57ED5D1F9563DC00975309 /* AppDelegate.swift in Sources */,
+				0745859C20450539001128B4 /* AddTicketViewController.swift in Sources */,
+				074585AB20465746001128B4 /* HomeViewController.swift in Sources */,
+				07C7A9C620520964000E474B /* LocationStepsViewController.swift in Sources */,
+				0745859E20450561001128B4 /* LocationViewController.swift in Sources */,
+				074585B3204784B4001128B4 /* UpdateUserDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99688ACB22406BAB003F4B46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B57ED581F9563DC00975309 /* ParkingTicketSystem_w2018iOS */;
+			targetProxy = 99688ACA22406BAB003F4B46 /* PBXContainerItemProxy */;
+		};
+		99688AD922406C9D003F4B46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B57ED581F9563DC00975309 /* ParkingTicketSystem_w2018iOS */;
+			targetProxy = 99688AD822406C9D003F4B46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0745865D204F5CE7001128B4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0745865C204F5CE7001128B4 /* en */,
+				0745865E204F5CEC001128B4 /* pt-BR */,
+				07C7A9C22050C715000E474B /* hi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		07458661204F6D14001128B4 /* instruction.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07458660204F6D14001128B4 /* en */,
+				07458662204F6D1F001128B4 /* pt-BR */,
+				07C7A9C32050C715000E474B /* hi */,
+			);
+			name = instruction.html;
+			sourceTree = "<group>";
+		};
+		9B57ED601F9563DD00975309 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B57ED611F9563DD00975309 /* Base */,
+				07458657204F5AF7001128B4 /* pt-BR */,
+				07C7A9C02050C714000E474B /* hi */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B57ED651F9563DD00975309 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B57ED661F9563DD00975309 /* Base */,
+				07458658204F5AF7001128B4 /* pt-BR */,
+				07C7A9C12050C715000E474B /* hi */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99688ACC22406BAB003F4B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNYA8T5JU4;
+				INFOPLIST_FILE = ParkingTicketSystem_w2018iOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nayay.ParkingTicketSystem-w2018iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParkingTicketSystem_w2018iOS;
+			};
+			name = Debug;
+		};
+		99688ACD22406BAB003F4B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNYA8T5JU4;
+				INFOPLIST_FILE = ParkingTicketSystem_w2018iOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nayay.ParkingTicketSystem-w2018iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParkingTicketSystem_w2018iOS;
+			};
+			name = Release;
+		};
+		99688ADB22406C9D003F4B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNYA8T5JU4;
+				INFOPLIST_FILE = ParkingTicketSystem_w2018iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nayay.ParkingTicketSystem-w2018iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkingTicketSystem_w2018iOS.app/ParkingTicketSystem_w2018iOS";
+			};
+			name = Debug;
+		};
+		99688ADC22406C9D003F4B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNYA8T5JU4;
+				INFOPLIST_FILE = ParkingTicketSystem_w2018iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nayay.ParkingTicketSystem-w2018iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkingTicketSystem_w2018iOS.app/ParkingTicketSystem_w2018iOS";
+			};
+			name = Release;
+		};
+		9B57ED691F9563DD00975309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B57ED6A1F9563DD00975309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B57ED6C1F9563DD00975309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B7KJQCFCP;
+				INFOPLIST_FILE = "$(SRCROOT)/ParkingTicketSystem_w2018iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxdroidlabs.pts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B57ED6D1F9563DD00975309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B7KJQCFCP;
+				INFOPLIST_FILE = "$(SRCROOT)/ParkingTicketSystem_w2018iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxdroidlabs.pts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99688ACE22406BAB003F4B46 /* Build configuration list for PBXNativeTarget "ParkingTicketSystem_w2018iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99688ACC22406BAB003F4B46 /* Debug */,
+				99688ACD22406BAB003F4B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99688ADA22406C9D003F4B46 /* Build configuration list for PBXNativeTarget "ParkingTicketSystem_w2018iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99688ADB22406C9D003F4B46 /* Debug */,
+				99688ADC22406C9D003F4B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B57ED541F9563DC00975309 /* Build configuration list for PBXProject "ParkingTicketSystem_w2018iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B57ED691F9563DD00975309 /* Debug */,
+				9B57ED6A1F9563DD00975309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B57ED6B1F9563DD00975309 /* Build configuration list for PBXNativeTarget "ParkingTicketSystem_w2018iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B57ED6C1F9563DD00975309 /* Debug */,
+				9B57ED6D1F9563DD00975309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B57ED511F9563DC00975309 /* Project object */;
+}

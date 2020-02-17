@@ -1,0 +1,203 @@
+
+/* Class = "UITextField"; placeholder = "Birth Date"; ObjectID = "06u-Ig-sGa"; */
+"06u-Ig-sGa.placeholder" = "Data de nascimento";
+
+/* Class = "UIViewController"; title = "Update Profile"; ObjectID = "10s-UF-NcC"; */
+"10s-UF-NcC.title" = "Atualizar perfil";
+
+/* Class = "UITextField"; placeholder = "Enter Full Name"; ObjectID = "1fU-wa-tdd"; */
+"1fU-wa-tdd.placeholder" = "Digite o nome completo";
+
+/* Class = "UILabel"; text = "Report"; ObjectID = "1zE-SD-fYc"; */
+"1zE-SD-fYc.text" = "Relatório";
+
+/* Class = "UILabel"; text = "Logout"; ObjectID = "2Md-MI-WCb"; */
+"2Md-MI-WCb.text" = "Sair";
+
+/* Class = "UIBarButtonItem"; title = "Sign Up"; ObjectID = "2Q9-Gd-C2G"; */
+"2Q9-Gd-C2G.title" = "Inscrever-se";
+
+/* Class = "UIViewController"; title = "Print Ticket"; ObjectID = "2SX-6f-jZG"; */
+"2SX-6f-jZG.title" = "Imprimir Ticket";
+
+/* Class = "UIBarButtonItem"; title = "Hybrid"; ObjectID = "2bB-R1-YCC"; */
+"2bB-R1-YCC.title" = "Híbrido";
+
+/* Class = "UILabel"; text = "Authenticating..."; ObjectID = "2ka-4a-Es9"; */
+"2ka-4a-Es9.text" = "Autenticando ...";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "390-v0-cuc"; */
+"390-v0-cuc.placeholder" = "Nova senha";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "3hR-9M-x4X"; */
+"3hR-9M-x4X.placeholder" = "Nome completo";
+
+/* Class = "UIViewController"; title = "Instruction"; ObjectID = "5ZO-en-Q6A"; */
+"5ZO-en-Q6A.title" = "Instrução";
+
+/* Class = "UIBarButtonItem"; title = "Satellite"; ObjectID = "6jw-VF-7j5"; */
+"6jw-VF-7j5.title" = "Satélite";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "6lu-lr-5Dl"; */
+"6lu-lr-5Dl.text" = "O email";
+
+/* Class = "UITextField"; placeholder = "Enter Password"; ObjectID = "AbP-Ms-s22"; */
+"AbP-Ms-s22.placeholder" = "O email";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "Agg-zT-sYk"; */
+"Agg-zT-sYk.title" = "Direitos autorais (c) Lambton College, W2018";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "BGm-lM-Ovi"; */
+"BGm-lM-Ovi.placeholder" = "Nome de usuário";
+
+/* Class = "UITextField"; placeholder = "Enter Parking Lane"; ObjectID = "BhI-1J-Hfx"; */
+"BhI-1J-Hfx.placeholder" = "Entre na pista de estacionamento";
+
+/* Class = "UILabel"; text = "User"; ObjectID = "COJ-IE-3fY"; */
+"COJ-IE-3fY.text" = "Do utilizador";
+
+/* Class = "UILabel"; text = "Remember Me?"; ObjectID = "EcJ-A2-PGu"; */
+"EcJ-A2-PGu.text" = "Lembre de mim?";
+
+/* Class = "UITableViewSection"; headerTitle = "Settings"; ObjectID = "FOp-yR-m5A"; */
+"FOp-yR-m5A.headerTitle" = "Configurações";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "Ijh-6E-LWj"; */
+"Ijh-6E-LWj.normalTitle" = "Inscrever-se";
+
+/* Class = "UITableViewController"; title = "Main"; ObjectID = "Kgz-wW-8n3"; */
+"Kgz-wW-8n3.title" = "a Principal";
+
+/* Class = "UILabel"; text = "Version Info"; ObjectID = "NBF-gu-48T"; */
+"NBF-gu-48T.text" = "Informação da versão";
+
+/* Class = "UIBarButtonItem"; title = "Standard"; ObjectID = "NZz-Bi-BaL"; */
+"NZz-Bi-BaL.title" = "Padrão";
+
+/* Class = "UILabel"; text = "Contact"; ObjectID = "QP5-FN-uNV"; */
+"QP5-FN-uNV.text" = "Contato";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "Rru-Pf-Zrh"; */
+"Rru-Pf-Zrh.placeholder" = "Confirme a Senha";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "TE2-re-nJs"; */
+"TE2-re-nJs.text" = "Casa";
+
+/* Class = "UITextField"; placeholder = "Old Password"; ObjectID = "TfT-ah-PUF"; */
+"TfT-ah-PUF.placeholder" = "Senha Antiga";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "U5y-Df-rDW"; */
+"U5y-Df-rDW.title" = "Direitos autorais (c) Lambton College, W2018";
+
+/* Class = "UILabel"; text = "Add Ticket"; ObjectID = "Uuz-zn-XSm"; */
+"Uuz-zn-XSm.text" = "Adicionar bilhete";
+
+/* Class = "UIViewController"; title = "Home"; ObjectID = "Vmy-or-eb9"; */
+"Vmy-or-eb9.title" = "Casa";
+
+/* Class = "UITextField"; placeholder = "Phone Vehicle Number"; ObjectID = "Wzh-MH-iR7"; */
+"Wzh-MH-iR7.placeholder" = "Número de veículo do veículo";
+
+/* Class = "UILabel"; text = "VIN"; ObjectID = "XGL-xH-Cyt"; */
+"XGL-xH-Cyt.text" = "VINHO";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "Y3F-Ex-b83"; */
+"Y3F-Ex-b83.text" = "Total";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "YBX-0m-MNP"; */
+"YBX-0m-MNP.title" = "Direitos autorais (c) Lambton College, W2018";
+
+/* Class = "UIViewController"; title = "Sign Up"; ObjectID = "age-Nx-Ldk"; */
+"age-Nx-Ldk.title" = "Inscrever-se";
+
+/* Class = "UITextField"; placeholder = "Enter Car Color"; ObjectID = "b5b-iO-bXO"; */
+"b5b-iO-bXO.placeholder" = "Digite a cor do carro";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "b5y-Nc-OWE"; */
+"b5y-Nc-OWE.text" = "Perfil";
+
+/* Class = "UILabel"; text = "$5"; ObjectID = "eX9-h6-lqe"; */
+"eX9-h6-lqe.text" = "$ 5";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "emp-Ba-uYX"; */
+"emp-Ba-uYX.normalTitle" = "Entrar";
+
+/* Class = "UITextField"; placeholder = "Enter Email ID"; ObjectID = "f7I-AU-TAm"; */
+"f7I-AU-TAm.placeholder" = "Digite o email ID";
+
+/* Class = "UITextField"; placeholder = "Enter Vehicle Number"; ObjectID = "fHA-Ag-xdn"; */
+"fHA-Ag-xdn.placeholder" = "Digite o número do veículo";
+
+/* Class = "UITextField"; placeholder = "Enter Birthdate"; ObjectID = "fz9-Q8-pca"; */
+"fz9-Q8-pca.placeholder" = "Insira a data de nascimento";
+
+/* Class = "UINavigationItem"; title = "Main"; ObjectID = "gXK-Mv-ewV"; */
+"gXK-Mv-ewV.title" = "a Principal";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "gms-G2-b8e"; */
+"gms-G2-b8e.title" = "Direitos autorais (c) Lambton College, W2018";
+
+/* Class = "UITableViewController"; title = "Report"; ObjectID = "hX7-VI-W7v"; */
+"hX7-VI-W7v.title" = "Relatório";
+
+/* Class = "UITextField"; placeholder = "Enter Parking Spot Number"; ObjectID = "iPc-kB-dgQ"; */
+"iPc-kB-dgQ.placeholder" = "Digite o número do local de estacionamento";
+
+/* Class = "UIViewController"; title = "Location"; ObjectID = "jLw-xn-2j8"; */
+"jLw-xn-2j8.title" = "Localização";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "kdp-BX-omi"; */
+"kdp-BX-omi.title" = "Entrar";
+
+/* Class = "UITextField"; placeholder = "Vehicle Number"; ObjectID = "kqT-aB-Xav"; */
+"kqT-aB-Xav.placeholder" = "Número do veículo";
+
+/* Class = "UISegmentedControl"; lmn-hl-KMb.segmentTitles[0] = "1/2 Hr."; ObjectID = "lmn-hl-KMb"; */
+"lmn-hl-KMb.segmentTitles[0]" = "1/2 Hr.";
+
+/* Class = "UISegmentedControl"; lmn-hl-KMb.segmentTitles[1] = "1 Hr."; ObjectID = "lmn-hl-KMb"; */
+"lmn-hl-KMb.segmentTitles[1]" = "1 Hr.";
+
+/* Class = "UISegmentedControl"; lmn-hl-KMb.segmentTitles[2] = "2 Hr."; ObjectID = "lmn-hl-KMb"; */
+"lmn-hl-KMb.segmentTitles[2]" = "2 Hr.";
+
+/* Class = "UISegmentedControl"; lmn-hl-KMb.segmentTitles[3] = "3 Hr."; ObjectID = "lmn-hl-KMb"; */
+"lmn-hl-KMb.segmentTitles[3]" = "3 Hr.";
+
+/* Class = "UISegmentedControl"; lmn-hl-KMb.segmentTitles[4] = "Day"; ObjectID = "lmn-hl-KMb"; */
+"lmn-hl-KMb.segmentTitles[4]" = "Dia";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "n9P-SS-Wot"; */
+"n9P-SS-Wot.title" = "Direitos autorais (c) Lambton College, W2018";
+
+/* Class = "UIBarButtonItem"; title = "Copyright (c) Lambton College, W2018"; ObjectID = "nli-av-GBg"; */
+"nli-av-GBg.title" = "Direitos autorais (c) Lambton College, W2018";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "nrP-LA-UDd"; */
+"nrP-LA-UDd.placeholder" = "Senha";
+
+/* Class = "UILabel"; text = "Instruction"; ObjectID = "pSD-Id-pBW"; */
+"pSD-Id-pBW.text" = "Instrução";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "per-Al-Qau"; */
+"per-Al-Qau.text" = "Localização";
+
+/* Class = "UIViewController"; title = "Add Ticket"; ObjectID = "q9w-Y9-Igg"; */
+"q9w-Y9-Igg.title" = "Adicionar bilhete";
+
+/* Class = "UITableViewSection"; headerTitle = "Actions"; ObjectID = "t7f-67-wgw"; */
+"t7f-67-wgw.headerTitle" = "Ações";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "tMN-qQ-czg"; */
+"tMN-qQ-czg.text" = "Tempo";
+
+/* Class = "UITextField"; placeholder = "Car Make"; ObjectID = "uXp-l9-tPE"; */
+"uXp-l9-tPE.placeholder" = "Fabricante de carros";
+
+/* Class = "UITextField"; placeholder = "Enter Payment Method"; ObjectID = "w7E-cu-aWg"; */
+"w7E-cu-aWg.placeholder" = "Digite o método de pagamento";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yO9-Rl-7Ye"; */
+"yO9-Rl-7Ye.text" = "Rótulo";
+
+"nfM-nJ-rDZ.title" = "Informação da rota";
